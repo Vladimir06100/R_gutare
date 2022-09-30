@@ -7,6 +7,8 @@
 
 body {
   margin: 0px;
+  background: pink;
+
 }
 
 /* Main container */
@@ -14,11 +16,6 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-.subtitle {
-  color: #b14949;
-  font-size: 2rem;
-  margin-top: 4vh;
-}
 
 /**
  * Barre de navigation
