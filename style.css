@@ -1,0 +1,135 @@
+/**
+ * Style général
+ */
+
+/* Roboto font */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+body {
+  margin: 0px;
+}
+
+/* Main container */
+#mainContainer {
+  font-family: "Roboto", sans-serif;
+}
+
+.subtitle {
+  color: #b14949;
+  font-size: 2rem;
+  margin-top: 4vh;
+}
+
+/**
+ * Barre de navigation
+ */
+
+/* Barre de navigation */
+#mainContainer #mainNav {
+  height: 70px;
+  background-color: #f2f2f2;
+  border-bottom: 10px solid #b14949;
+  box-shadow: 0px 4px 4px rgb(41, 41, 41);
+  display: flex;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+}
+
+/* Logo */
+#mainContainer #mainNav .logo {
+  height: 50px;
+  margin: 10px 40px;
+}
+
+/* Menu */
+#mainContainer #mainNav .menu {
+  display: flex;
+  margin: 0px 40px;
+  height: 70px;
+  align-items: center;
+  flex-grow: 1;
+  padding: 0px;
+  justify-content: flex-end;
+}
+
+/* Menu items */
+#mainContainer #mainNav .menu .menu-item {
+  list-style: none;
+  margin: 0px 30px;
+}
+
+#mainContainer #mainNav .menu .menu-item a {
+  color: #444444;
+  font-size: 1.2rem;
+  letter-spacing: 0.28rem;
+  text-decoration: none;
+}
+
+#mainContainer #mainNav .menu .menu-item.shop-button {
+  border: 1px solid #b14949;
+  border-radius: 7px;
+  padding: 5px 10px;
+}
+
+#mainContainer #mainNav .menu .menu-item.shop-button a {
+  color: #b14949;
+}
+
+#mainContainer #mainNav .menu .menu-item.shop-button a .text {
+  position: relative;
+  bottom: 4px;
+}
+
+/**
+ * Accueil
+ */
+
+/* Accueil */
+#mainContainer #home {
+  min-height: 100vh;
+  background-image: url("images/bakground.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+/* Slogan */
+#mainContainer #home .headline-container {
+  position: absolute;
+  right: 5vw;
+  bottom: 10vh;
+}
+
+#mainContainer #home .headline-container .headline {
+  font-size: 3rem;
+  font-weight: 500;
+  color: white;
+  text-align: right;
+  letter-spacing: 0.28rem;
+}
+
+#mainContainer #home .headline-container .headline.top {
+  padding-right: 5vw;
+}
+
+#mainContainer #home .headline-container .headline.bottom {
+  display: flex;
+  align-items: center;
+}
+
+#mainContainer #home .headline-container .headline.bottom .line {
+  height: 0.5rem;
+  width: 12vw;
+  background-color: white;
+  flex-grow: 1;
+  margin-right: 20px;
+}
+
+/**
+ * L'esprit RGuitar
+ */
+
+#mainContainer #philosophy {
+  margin: 2vh 10vw;
+}
