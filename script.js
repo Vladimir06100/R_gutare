@@ -5,17 +5,12 @@
 let image = document.querySelector(".logo");
 // AJOUTER UN ATTRIBUT SRC AVEC LE LIEN DE MON IMAGE
 image.src = "./images/Logo.png";
-function A(
-
-)
-A();
-
 
 // MODIFICATION DE LA NAV BAR
 /**************************************************************************************** */
 //  PENSER W GUITAR EN ESPRIT R'GUITAR
 let element = document.querySelector(
-  "li.menu-item:nth-child(1) > a:nth-child(1) "
+	"li.menu-item:nth-child(1) > a:nth-child(1) "
 );
 //  Modification du texte de ma balise
 element.innerText = "L'esprit R'Guitar";
@@ -23,7 +18,7 @@ element.innerText = "L'esprit R'Guitar";
 // NOS CAMIONS A NOS GRATTES MODIFICATION
 /**************************************************************************************** */
 let element1 = document.querySelector(
-  "li.menu-item:nth-child(2) > a:nth-child(1) "
+	"li.menu-item:nth-child(2) > a:nth-child(1) "
 );
 // Modification du texte
 element1.innerText = "Nos grattes";
@@ -46,7 +41,7 @@ let parentParagraphe = document.querySelector("#philosophy > p:nth-child(2)");
 let enfantParagraphe = document.createElement("p");
 // On donne une valeur à cet enfant
 enfantParagraphe.innerText =
-  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus commodi et in, molestias aspernatur doloremque aliquid asperiores velit maxime quaerat. Aliquam, natus labore. Repellendus voluptates dicta officiis magnam voluptas! Dolorem? ";
+	"Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus commodi et in, molestias aspernatur doloremque aliquid asperiores velit maxime quaerat. Aliquam, natus labore. Repellendus voluptates dicta officiis magnam voluptas! Dolorem? ";
 
 // FAIRE APPARAÎTRE L'ENFANT DANS LE PARENT
 parentParagraphe.appendChild(enfantParagraphe);
@@ -67,4 +62,3 @@ li.innerText = "Lorem ipsum, dolor sit amet consectetur adipisicing elit.";
 
 // Apparition de l'enfant LI dans le parent UL
 ul.appendChild(li);
- 
