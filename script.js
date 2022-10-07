@@ -1,10 +1,15 @@
 // CORRECTION ATELIER N°14
 
 //  AJOUT DU LOGO AIR GUITAR
-// RECUPERER L'ELEMENT IMAGE DEPUIS LE DOM
+// RÉCUPÉRER L'ELEMENT IMAGE DEPUIS LE DOM
 let image = document.querySelector(".logo");
 // AJOUTER UN ATTRIBUT SRC AVEC LE LIEN DE MON IMAGE
 image.src = "./images/Logo.png";
+function A(
+
+)
+A();
+
 
 // MODIFICATION DE LA NAV BAR
 /**************************************************************************************** */
@@ -43,7 +48,7 @@ let enfantParagraphe = document.createElement("p");
 enfantParagraphe.innerText =
   "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus commodi et in, molestias aspernatur doloremque aliquid asperiores velit maxime quaerat. Aliquam, natus labore. Repellendus voluptates dicta officiis magnam voluptas! Dolorem? ";
 
-// FAIRE APPARAITRE L'ENFANT DANS LE PARENT
+// FAIRE APPARAÎTRE L'ENFANT DANS LE PARENT
 parentParagraphe.appendChild(enfantParagraphe);
 /**************************************************************************************** */
 // CHANGEMENT DE STYLE DU TITRE "Notre philosophie en 3 points"
@@ -62,3 +67,4 @@ li.innerText = "Lorem ipsum, dolor sit amet consectetur adipisicing elit.";
 
 // Apparition de l'enfant LI dans le parent UL
 ul.appendChild(li);
+ 
