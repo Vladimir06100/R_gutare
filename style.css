@@ -116,7 +116,7 @@ body {
 #mainContainer #home .headline-container .headline.bottom .line {
   height: 0.5rem;
   width: 12vw;
-  background-color: white;
+  background-color: rgb(176, 254, 66);
   flex-grow: 1;
   margin-right: 20px;
 }
